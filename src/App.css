@@ -1,0 +1,126 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+
+.bgimg{
+  background-image: url(./images/banner1.jpg);
+  filter: blur(3px); 
+  -webkit-filter: blur(4px);
+  height: 630Px;
+  position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.bgimg1{
+  background-image: url(./images/admin.jpg);
+  filter: blur(4px); 
+  -webkit-filter: blur(4px);
+  height: 650Px;
+  position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.text {
+  color: rgb(12, 1, 1);
+  font-weight: bold;
+  font-family: "Arial Black";
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  padding: 20px;
+  text-align: center;
+  background-color: rgb	(240, 240, 240); 
+  background-color: rgba(217, 229, 238, 0.442);
+}
+
+.stuff {
+  color: black;
+  font-weight: bold;
+  font-family: "Arial Black";
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 20px;
+  text-align: center;
+}
+
+.Navtxt {
+font-weight: bold;
+font-family: "Ariel Black";
+text-align: left;
+padding-left:0.5cm;
+}
+
+.btn1{
+  background-color: #2237be;
+  margin-right: 0.5cm;
+}
+.btn2{
+  background-color: #5e0d2a;
+  margin-right: 0.5cm;
+}
+
+.t{
+  z-index: 1000 !important;
+}
+.container2{
+  
+  background-color: #2661b45a;
+  transform: translate(-50%);
+}
+
+.container1{
+  background-color: #afd1e477 ;
+  transform: translate(-50%);
+}
+
+.btn3{
+  font-weight: bold;
+  background-color: #2661b4f0;
+}
