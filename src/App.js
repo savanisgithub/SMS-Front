@@ -9,6 +9,9 @@ import EditStudent from './Students/EditStudent';
 import AdminLogin from './pages/AdminLogin'; 
 import ViewStudent from './Students/ViewStudent';
 import Admin from './pages/Admin';
+import Course from './pages/Course';
+import AddCourse from './Courses/AddCourse';
+import EditCourse from './Courses/EditCourse';
 
 function App() {
   return (
@@ -21,7 +24,10 @@ function App() {
         <Route exact path="/login" element={<AdminLogin/>}/>
         <Route exact path="/admin" element={<Admin/>}/>
         <Route exact path="/student" element={<Student/>}/>
+        <Route exact path="/course" element={<Course/>}/>
         <Route exact path="/addstudent" element={<AddStudent/>}/>
+        <Route exact path="/addcourse" element={<AddCourse/>}/>
+        <Route exact path="/editcourse/:id" element={<EditCourse/>}/>
         <Route exact path="/editstudent/:id" element={<EditStudent/>}/>
         <Route exact path="/viewstudent/:id" element={<ViewStudent/>}/>
       </Routes>

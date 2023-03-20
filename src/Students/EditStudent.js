@@ -13,11 +13,10 @@ export default function EditStudent() {
         lastName: "",
         address: "",
         birthday: "",
-        degreeProgram: "",
-        course: ""
+        degreeProgram: ""
     });
 
-    const{firstName,lastName,address,birthday,degreeProgram,course}=student;
+    const{firstName,lastName,address,birthday,degreeProgram}=student;
     const onInputChange=(e)=>{
         setStudents({...student, [e.target.name]: e.target.value});
     };
@@ -108,19 +107,6 @@ export default function EditStudent() {
               value={degreeProgram}
               onChange={(e)=>onInputChange(e)}
              />
-          </div>
-          <div className="mb-2">
-            <label htmlFor="course" className="form-label">
-              Course
-            </label>
-            <input
-              type={"text"}
-              className="form-control"
-              placeholder="Enter your course"
-              name="course"
-              value={course}
-              onChange={(e)=>onInputChange(e)}
-            />
           </div>
           <button type="submit" className="btn btn-outline-dark">Submit</button>
           <Link to='/' className="btn btn-outline-danger mx-2">Cancel</Link>

@@ -35,7 +35,6 @@ export default function Student() {
                     <th scope="col">Address</th>
                     <th scope="col">Birthday</th>
                     <th scope="col">Degree</th>
-                    <th scope="col">Course</th>
                     <th scope="col">Action</th>
                 </tr>
             </thead>
@@ -49,7 +48,6 @@ export default function Student() {
                         <td>{student.address}</td>
                         <td>{student.birthday}</td>
                         <td>{student.degreeProgram}</td>
-                        <td>{student.course}</td>
                         <td>
                             <Link className="btn btn-primary mx-2" to={`/viewstudent/${student.id}`} >View</Link>
                             <Link  className="btn btn-outline-primary mx-2" to={`/editstudent/${student.id}`}>Edit</Link>

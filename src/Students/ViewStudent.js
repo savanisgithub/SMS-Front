@@ -54,10 +54,6 @@ export default function ViewStudent() {
                                 <b>Degree:</b>
                                 {student.degreeProgram}
                             </li>
-                            <li className="list-group-item">
-                                <b>Courses:</b>
-                                {student.course}
-                            </li>
                         </ul>
                     </div>
                 </div>
